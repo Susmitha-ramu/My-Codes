@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+/* Header */
+header {
+  background: #000;
+  padding: 10px 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+nav ul li .login-btn {
+  background-color: #1DB954;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+/* Sections */
+h2 {
+  margin: 20px;
+}
+.artist-container, .album-container {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  overflow-x: auto;
+}
+.artist, .album {
+  text-align: center;
+}
+.artist img, .album img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.album img {
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #000;
+}
